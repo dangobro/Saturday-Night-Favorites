@@ -1,0 +1,62 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: e3bf83bdcc584d68a61399c42527d7f6bbaaa0ff2649d1a0707389b0d65a1900
+
+name:           project-euler
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/telumo/project-euler#readme>
+homepage:       https://github.com/telumo/project-euler#readme
+bug-reports:    https://github.com/telumo/project-euler/issues
+author:         Hikaru Hasegawa
+maintainer:     drumscohika@gmail.com
+copyright:      2020 Hikaru Hasegawa
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/telumo/project-euler
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_project_euler
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable project-euler-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_project_euler
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , project-euler
+  default-language: Haskell2010
+
+test-suite project-euler-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_project_euler
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , project-euler
+  default-language: Haskell2010
