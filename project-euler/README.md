@@ -8,7 +8,7 @@ Haskell×ProjectEuler勉強会用
 HaskellでProjectEulerの問題をひたすら解いていきます。
 
 ### 日時
-2020/04/25（土曜日）
+T.B.D
 
 ### 場所
 Zoom
