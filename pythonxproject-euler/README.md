@@ -2,7 +2,7 @@
 [ ProjectEulerをPythonで解いてみた！！]
 
 ## 内容
-- 数学問題の奥深さとHaskellの面白さを伝える
+- 数学問題の奥深さとPythonの面白さを伝える
 - ※なお、日常生活には何の役にも立たないと思います。m(__)m
 
 ## 背景
@@ -34,7 +34,7 @@ Zoom
 
 - Project Euler: [About \- Project Euler](https://projecteuler.net/)
 
-- Hskell: [Welcome to Python\.org](https://www.python.org/)
+- Python: [Welcome to Python\.org](https://www.python.org/)
 
 - [abc Conjecture and New Mathematics \- Prof\. Fumiharu Kato, Oct 7, 2017 \(with English subtitles\) \- YouTube](https://www.youtube.com/watch?v=fNS7N04DLAQ)
 - [トポロジーと圏論の夜明け 佐野 岳人 \| プログラマのための圏論勉強会 \- YouTube](https://www.youtube.com/watch?v=h_YJDTdHhU4)
